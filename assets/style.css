@@ -103,6 +103,7 @@ section {
     border-radius: 5px;
     font-family: 'Comfortaa', cursive;
     opacity: .8;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .plus:hover,
