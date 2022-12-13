@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="shortcut icon" href="/image/calc.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <section>
+    <p class="title">Калькулятор</p>
+
+    <!-- Inputs -->
+    <div class="input">
+      <div class="container">
+        <div class="inputs__item">
+          <input class="number-one" type="number" />
+          <input class="number-two" type="number" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <div class="container">
+        <div class="button__item">
+          <button class="plus">+</button>
+          <button class="minus">-</button>
+          <button class="divide">/</button>
+          <button class="multiply">X</button>
+          <button class="clear">Очистить</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div class="container">
+      <p class="result-text">Результат:</p>
+      <p class="result"></p>
+    </div>
+
+    <script src="./app.js"></script>
+    </section>
+  </body>
+</html>
